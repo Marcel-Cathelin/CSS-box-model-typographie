@@ -1,0 +1,90 @@
+/* disposition bloc*/
+
+p,
+ul {
+    border: 2px solid rebeccapurple;
+    padding: .5em;
+}
+
+.block,
+li {
+    border: 2px solid blue;
+    padding: .5em;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+.block {
+    display: block;
+}
+
+
+/* disposition inline*/
+
+p,
+ul {
+    border: 2px solid rebeccapurple;
+}
+
+span,
+li {
+    border: 2px solid blue;
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+}
+
+.inline {
+    display: inline;
+}
+
+
+/* Autres modeles */
+
+body {
+    background: #f06d06;
+}
+
+h2 {
+    text-align: center;
+    background: white;
+    border: 3px solid black;
+    margin: 30px 0;
+    padding: 20px;
+}
+
+h3,
+nav {
+    text-align: center;
+    background: white;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    background: #333;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 8px;
+}
+
+main {
+    background: white;
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.center {
+    margin: 0 auto;
+    width: 200px;
+    background: black;
+    padding: 20px;
+    color: white;
+}
